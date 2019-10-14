@@ -1,0 +1,55 @@
+.contact {
+  background: url("assets/IMG_20180421_110810.jpg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  position: relative;
+}
+
+.contact_details {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.contact_portfolio {
+  padding-top: 5px;
+}
+
+.contact_github {
+  color: whitesmoke;
+  background-color: #637896;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 179px;
+  left: 61px;
+  width: 163px;
+  border-style: ridge;
+  border: 2px solid #869ec2;
+  border-radius: 30px;
+}
+
+.contact_linkedin {
+  color: whitesmoke;
+  background-color: #637896;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  left: 756px;
+  width: 174px;
+  border-style: ridge;
+  border: 2px solid #869ec2;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=styles.css.map */

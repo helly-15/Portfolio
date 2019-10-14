@@ -1,0 +1,533 @@
+.wrapper1{
+    height:560px;
+    width: 1300px;
+    background: url('./assets/background1.svg');
+    background-size: cover;
+    text-transform: uppercase;
+}
+.wrapper2{
+    height:215px;
+    width: 1300px;
+    display: flex;
+    text-transform: uppercase;
+}
+.wrapper3{
+    height:500px;
+    width: 1300px;
+    background: url('./assets/background3.png');
+    position: relative;
+}
+.wrapper4{
+    height:500px;
+    width: 1300px;
+    background: url('./assets/background4.png');
+}
+.wrapper5{
+    height:65px;
+    width: 1300px;
+    background: #4c4c4c;
+    border-top: 3px solid #000;
+}
+.header {
+    display:flex;
+    justify-content:space-between;
+}
+.navbar{
+    margin: 73px 140px 0 0;
+}
+.navbar ul{
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    opacity:0,5;
+    display:flex;
+    box-shadow: -7px -5px 0px 0px rgba(177, 143, 22, 0.658),-14px -10px 0px 0px rgba(177, 143, 22, 0.658);
+}
+.navbar ul li{ 
+    width: 150px;
+    height: 41px;
+    
+    }
+.navbar ul li a{ 
+    text-decoration: none;
+    display:block;
+    height: 41px;
+    width: 150px;
+    line-height: 41px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+}
+.navbar ul li a:hover{
+    color: white;
+    font-weight: 900;
+}
+.navbar img{
+    height:20px;
+    width: 20px;
+}
+#envelope{
+    width: 25px;
+    margin-left: 17px;
+    margin-right: 8px;
+}
+#about{
+    margin-left:40px;
+    margin-right: 10px;
+}
+#services{
+    margin-left: 14px;
+    margin-right: 10px;
+}
+#about-us{
+    width: 160px;
+}
+#services-li{
+    width: 140px;
+}
+.navbartext{
+    display: flex;
+}
+.middlelink {
+    border-left: 1px solid rgba(161, 130, 8, 0.3);
+    border-right: 1px solid rgba(161, 130, 8, 0.3);
+}
+.logo {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 40px 0 0 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81px;
+   
+}
+.logo img {
+   height: 81px; 
+   width: 81px;
+}
+.parrots{
+    display:flex;
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "ASAP";
+    font-weight: 400;
+    text-align: center;
+}
+.parrots ul li {
+    color: #f5c506;
+}
+.parrots video{
+    margin: 46px 50px 80px 115px;
+}
+.parrots ul {
+    margin: 145px 0 180px 0;
+}
+.controlleft{
+    margin: 185px 0 210px 0;
+}
+.controlright{
+    
+    margin: 185px 0 210px 127px;
+}
+
+.column1, 
+.column2, 
+.column3{
+    width: 340px;
+    height: 215px;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+    
+    
+}
+.column1{
+    margin-left: 140px;
+    
+}
+.column1 img{
+    margin-top:60px; 
+}
+.column3{
+    margin-right: 140px;    
+}
+.column2 img{
+    margin-top: 40px;
+}
+.column3 img{
+    margin-top: 55px;
+}
+.title3{
+    
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 145px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.leftbox{
+    margin-left: 140px;
+    width: 340px;
+    height: 230px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    background-color:#ec9e03;
+    position: relative;
+}
+.leftbox p{
+    margin: 25px 40px 0 30px 
+}
+.plus_sign {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.wrapperOfBoxesSection3{
+    display: flex;
+}
+.video2{
+    height:230px;
+    width: 315px;
+}
+.rightbox{
+    width: 330px;
+    height: 235px;
+    background-color:#ec9e03;
+    position: relative;
+    margin-left: 35px;
+}
+.twitter{
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+.rightbox p{
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.data{
+    margin-left: 140px;
+    width: 110px;
+    height: 85px;
+    background-color:#ddb101;
+    position: relative;
+    margin-top:-5px;
+}
+.twentyfive{
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top:15px;
+    right:25px;
+}
+.april{
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    text-transform: uppercase;
+}
+.slider{
+    position: absolute;
+    bottom: 20px;
+    left:210px;
+}
+.twittermobile{
+    display: none;
+}
+.wrapper4 p{
+    width: 918px;
+    height: 130px;
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin-left: 355px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.comp{
+    margin-left:140px;
+    margin-top: -70px;
+}
+.compmobile{
+    display: none;
+}
+.wrapper5 div{
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0 0 135px;
+    display: flex;
+    align-items: center;
+    
+    height: 53px;
+}
+/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    .wrapper1{
+        height:390px;
+        width: 640px;
+    }    
+    .wrapper2{
+        height:182px;
+        width: 640px;
+        background:url(./assets/mobileBackground2.svg)
+    }    
+    .wrapper3{
+        height:250px;
+        width: 640px;
+        background:none;
+    }
+    .wrapper4{
+        height:465px;
+        width: 640px;
+    }
+    .wrapper5{
+        height:40px;
+        width: 640px;
+    }
+    .header {
+        display:flex;
+        justify-content: left;
+    }
+    .navbar{
+        margin:0 0;
+    }
+    .navbar ul{
+        width: 450px;
+        height: 65px;
+        box-shadow:none;
+    }
+    .navbar ul li{ 
+        height: 65px;
+        }
+    .navbar ul li a{ 
+        height: 65px;
+        line-height: 65px;
+        font-size: 19px;
+    }
+    .logo {
+        font-size: 19px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin:0 0;
+        height: 65px;
+       background-color: #3f3f3d;
+       width: 190px;
+    }
+    .logo img {
+       height: 35px; 
+       width: 40px;
+       background-color: #3f3f3d;
+    }
+    .parrots ul li {
+        display: none;
+    }
+    .parrots video{
+        margin: -20px 0 0 0;
+        width: 640px;
+        height: 325px;
+    }
+    .parrots ul {
+        display: none;
+    }
+    .controlleft{
+       display: none;
+    }
+    .controlright{
+        display: none;
+    }
+    .column1, 
+    .column2, 
+    .column3{
+        width: 213px;
+        height: 178px;
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        border-left: none;
+        border-right: none;
+        box-shadow: 0px -5px 0px 0px rgba(255, 255, 255, 0.658),0px -10px 0px 0px rgba(255, 255, 255, 0.658);
+    }
+    .column1{
+        margin-left: 0px;
+        
+    }
+    .column1 img{
+        margin-top:30px; 
+        height: 60px;
+    }
+    .column3{
+        margin-right: 0px;    
+    }
+    .column2 img{
+        margin-top: 30px;
+        height:70px;
+    }
+    .column3 img{
+        margin-top: 30px;
+        height: 70px;
+    }
+    .column1 p{
+      margin-top: 25px;  
+    }
+    .column2 p{
+        margin-top: 20px;   
+    }
+    .column3 p{
+        margin-top: 23px;
+    }
+    .title3{
+        display: none;        
+    }
+    .leftbox{
+        margin: 10px 10px;
+        width: 300px;
+        line-height: 33px;
+        color: #ffffff;
+        background-color:#ec9e03;
+    }
+    .leftbox p{
+        margin: 25px 35px 0 25px;
+        width: 279px;
+        height: 307px;
+    }
+    .plus_sign {
+        bottom: 17px;
+    }
+    
+    .wrapperOfBoxesSection3{
+        display: flex;
+    }
+    .video2{
+        margin: 10px 0;
+    }
+    .rightbox{
+        display: none;
+    }
+    
+    .data{
+       display:none;
+    }
+    .slider{
+        display: none;
+    }
+    .twittermobile{
+        background: #f5c507;
+        height: 230px;
+        width: 640px;
+        display: flex;
+    }
+    .bird{
+        height: 130px;
+        width: 160px;
+        margin-left: 90px;
+        margin-right: 80px;
+        margin-top: 60px;
+    }
+    .twittermessages{
+        margin-top: 12px;
+        position: relative;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #8f8e8e;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 15px;
+    }
+    .twittermessages img{
+        margin-top:13px;
+    }
+    .twittermessages input{
+        position: absolute;
+        top: 187px;
+    }
+    
+    .firsttext{
+        position: absolute;
+        top: 20px;
+        left:30px;
+    }
+    .secondtext{
+        position: absolute;
+        top: 80px;
+        left:30px;
+    }
+    .thirdtext{
+        position: absolute;
+        top: 138px;
+        left:30px;
+    }
+    .wrapper4 p{
+        width: 918px;
+        height: 130px;
+        font-size: 39px;
+        font-family: "PT Sans";
+        margin-left: 0px;
+        text-transform: uppercase;
+        padding: 43px 0 0 20px;
+    }
+    .comp{
+        display: none;
+    }
+    .compmobile{
+        margin: -55px 0 0 30px;
+        display: block;
+    }
+    .wrapper5 div{
+        font-size: 17px;
+        letter-spacing: 0px;
+        margin: 7px 0 0 65px;
+        display: flex;
+        align-items: center;
+        height: 25px;
+    }
+    .twittermobile textarea{
+        border: none;
+        margin:12px 0 0 12px;
+    }
+    .wrapper5 img{
+        height:28px;
+    }
+    
+}
