@@ -1,17 +1,15 @@
 .contact {
   background: #637896;
-  width: 100vw;
-  height: 900px;
+  width: 100%;
   position: relative;
 }
 
 .contact_details {
   height: 800px;
-  width: 100%;
   max-width: 1280px;
   color: white;
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 0px;
   padding-top: 0px;
   margin: 0 auto;
@@ -62,5 +60,63 @@
   border-style: ridge;
   border: 2px solid #869ec2;
   border-radius: 30px;
+}
+
+.education {
+  /* Style the button that is used to open and close the collapsible content */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the collapsible content. Note: hidden by default */
+}
+
+.education_collapsible {
+  background-color: #395174;
+  color: #d1cdcd;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education_active, .education_collapsible:hover {
+  background-color: #ccc;
+  color: darkblue;
+}
+
+.education_content {
+  padding: 18px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 20px;
+  font: 400 13.3333px Arial;
+  text-align: center;
+  line-height: 26px;
+}
+
+.slider {
+  width: 100%;
+  height: 400px;
+  background: #637896;
+}
+
+.slider_title {
+  font: 400 13.3333px Arial;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #d1cdcd;
+  font-weight: bold;
+  text-align: center;
+}
+
+.slider_window {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  background: #d1cdcd;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=styles.css.map */

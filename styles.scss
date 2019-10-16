@@ -1,20 +1,18 @@
 .contact{
   background: #637896;
-  width: 100vw;
-  height: 900px;
- 
+  width: 100%;
   position: relative;
  
   
   
   &_details{
     
+    
     height: 800px;
-    width: 100%;
     max-width: 1280px;
       color: white;
       font-size:20px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       margin-left: 0px;
       padding-top: 0px;
       margin: 0 auto;
@@ -66,6 +64,61 @@
         border-style: ridge;
         border: 2px solid #869ec2;
         border-radius: 30px;
+    }
+}
+.education {
+    /* Style the button that is used to open and close the collapsible content */
+&_collapsible {
+    background-color: #395174;
+    color: rgb(209, 205, 205);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  &_active, &_collapsible:hover {
+    background-color: #ccc;
+    color: darkblue;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  &_content {
+    padding: 18px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-size:20px;
+    font: 400 13.3333px Arial;
+    text-align: center;
+    line-height: 26px;
+
+  }
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+    background: #637896;
+    &_title{
+        font: 400 13.3333px Arial;
+        margin: 0 auto;
+        font-size: 20px;
+        color: rgb(209, 205, 205);
+        font-weight: bold;
+        text-align: center;
+    }
+    &_window{
+        width: 50%;
+        height: 200px;
+        margin: 0 auto;
+        background: rgb(209, 205, 205);
+        margin-top: 50px;
     }
 }
 
