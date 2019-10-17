@@ -50,6 +50,10 @@
         border: 2px solid #869ec2;
         border-radius: 30px;
         top: 20%;
+        @media only screen and (max-width : 480px) {
+            top: 435px;
+            font-size:12px;
+            }
     }
     &_linkedin{
         color: whitesmoke;
@@ -64,6 +68,10 @@
         border-style: ridge;
         border: 2px solid #869ec2;
         border-radius: 30px;
+        @media only screen and (max-width : 480px) {
+            top: 435px;
+            font-size:12px;
+            }
     }
 }
 .education {
@@ -79,7 +87,10 @@
     outline: none;
     font-size: 20px;
     font-weight: bold;
+    position: relative;
+    
   }
+  
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   &_active, &_collapsible:hover {
@@ -105,6 +116,7 @@
     width: 100%;
     height: 400px;
     background: #637896;
+    position: relative;
     &_title{
         font: 400 13.3333px Arial;
         margin: 0 auto;
@@ -112,14 +124,133 @@
         color: rgb(209, 205, 205);
         font-weight: bold;
         text-align: center;
+        padding-top: 20px;
     }
     &_window{
-        width: 50%;
+        width: 400px;
         height: 200px;
         margin: 0 auto;
         background: rgb(209, 205, 205);
         margin-top: 50px;
+
+        overflow: hidden;
+        @media only screen and (max-width : 480px) {
+            width: 200px;
+            }
+        &__wrapper{
+            width: 800px;
+            height: 200px;
+            display: flex;
+            transition: transform 800ms linear;
+            @media only screen and (max-width : 480px) {
+                width: 400px;
+                }
+        &___yallow{
+            width: 400px;
+            height: 100%;
+            display: flex;
+            @media only screen and (max-width : 480px) {
+                width: 200px;
+                }
+            &____description{
+                width: 200px;
+                height: 100%;
+                line-height: 20px;
+                font-size: 18px;
+                color: #3d2d10;
+                text-align: center;
+                font-weight: bold;
+                @media only screen and (max-width : 480px) {
+                    width: 100px;
+                    line-height: 15px;
+                    font-size: 13px;
+                    }
+                
+                ul, li{
+                    padding: 5% 5%;
+                    margin-top: 5%;
+                    
+                }
+            }
+            &____img{
+                width: 200px;
+                height: 100%;
+                background: url(assets/THEYALOW.jpg);
+                background-size: cover;
+                @media only screen and (max-width : 480px) {
+                    width: 100px;
+                    }
+            }
+        }
+        &___repair{
+            width: 400px;
+            height: 100%;
+            display: flex;
+            @media only screen and (max-width : 480px) {
+                width: 200px;
+                }
+            
+            &____description{
+                width: 200px;
+                height: 100%;
+                line-height: 20px;
+                font-size: 18px;
+                color: #3d2d10;
+                text-align: center;
+                font-weight: bold;
+                @media only screen and (max-width : 480px) {
+                    width: 100px;
+                    line-height: 15px;
+                    font-size: 13px;
+                    }
+                
+                ul, li{
+                    padding: 5% 5%;
+                    margin-top: 5%;
+                    
+                }
+            }
+            &____img{
+                width: 200px;
+                height: 100%;
+                background: url(assets/Снимок.PNG);
+                background-size: cover;
+                @media only screen and (max-width : 480px) {
+                    width: 100px;
+                    }
+            }
+        }
     }
+    }
+
 }
+.first-position{ 
+    transform: translate3d(0px, 0px, 0px);
+    
+}
+.second-position{ 
+    transform: translate3d(-400px, 0px, 0px);
+    @media only screen and (max-width : 480px) {
+        transform: translate3d(-200px, 0px, 0px);
+        }
+}
+.left{
+    border: 2px solid #706a7b;
+    background-color: #435180;
+    cursor: pointer;
+    height: 55px;
+    width: 30px;
+    position: absolute;
+    top: 100px;
 
-
+}
+.right{
+    border: 2px solid #706a7b;
+    background-color: #435180;
+    cursor: pointer;
+    height: 55px;
+    width: 30px;
+    position: absolute;
+    top: 100px;
+    right:0;
+}

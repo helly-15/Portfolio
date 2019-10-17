@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contact {
   background: #637896;
   width: 100%;
@@ -47,6 +48,13 @@
   top: 20%;
 }
 
+@media only screen and (max-width: 480px) {
+  .contact_github {
+    top: 435px;
+    font-size: 12px;
+  }
+}
+
 .contact_linkedin {
   color: whitesmoke;
   background-color: #637896;
@@ -60,6 +68,13 @@
   border-style: ridge;
   border: 2px solid #869ec2;
   border-radius: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .contact_linkedin {
+    top: 435px;
+    font-size: 12px;
+  }
 }
 
 .education {
@@ -79,6 +94,7 @@
   outline: none;
   font-size: 20px;
   font-weight: bold;
+  position: relative;
 }
 
 .education_active, .education_collapsible:hover {
@@ -101,6 +117,7 @@
   width: 100%;
   height: 400px;
   background: #637896;
+  position: relative;
 }
 
 .slider_title {
@@ -110,13 +127,177 @@
   color: #d1cdcd;
   font-weight: bold;
   text-align: center;
+  padding-top: 20px;
 }
 
 .slider_window {
-  width: 50%;
+  width: 400px;
   height: 200px;
   margin: 0 auto;
   background: #d1cdcd;
   margin-top: 50px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window {
+    width: 200px;
+  }
+}
+
+.slider_window__wrapper {
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 800ms linear;
+  transition: -webkit-transform 800ms linear;
+  transition: transform 800ms linear;
+  transition: transform 800ms linear, -webkit-transform 800ms linear;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper {
+    width: 400px;
+  }
+}
+
+.slider_window__wrapper___yallow {
+  width: 400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper___yallow {
+    width: 200px;
+  }
+}
+
+.slider_window__wrapper___yallow____description {
+  width: 200px;
+  height: 100%;
+  line-height: 20px;
+  font-size: 18px;
+  color: #3d2d10;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper___yallow____description {
+    width: 100px;
+    line-height: 15px;
+    font-size: 13px;
+  }
+}
+
+.slider_window__wrapper___yallow____description ul, .slider_window__wrapper___yallow____description li {
+  padding: 5% 5%;
+  margin-top: 5%;
+}
+
+.slider_window__wrapper___yallow____img {
+  width: 200px;
+  height: 100%;
+  background: url(assets/THEYALOW.jpg);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper___yallow____img {
+    width: 100px;
+  }
+}
+
+.slider_window__wrapper___repair {
+  width: 400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper___repair {
+    width: 200px;
+  }
+}
+
+.slider_window__wrapper___repair____description {
+  width: 200px;
+  height: 100%;
+  line-height: 20px;
+  font-size: 18px;
+  color: #3d2d10;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper___repair____description {
+    width: 100px;
+    line-height: 15px;
+    font-size: 13px;
+  }
+}
+
+.slider_window__wrapper___repair____description ul, .slider_window__wrapper___repair____description li {
+  padding: 5% 5%;
+  margin-top: 5%;
+}
+
+.slider_window__wrapper___repair____img {
+  width: 200px;
+  height: 100%;
+  background: url(assets/Снимок.PNG);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider_window__wrapper___repair____img {
+    width: 100px;
+  }
+}
+
+.first-position {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+}
+
+.second-position {
+  -webkit-transform: translate3d(-400px, 0px, 0px);
+          transform: translate3d(-400px, 0px, 0px);
+}
+
+@media only screen and (max-width: 480px) {
+  .second-position {
+    -webkit-transform: translate3d(-200px, 0px, 0px);
+            transform: translate3d(-200px, 0px, 0px);
+  }
+}
+
+.left {
+  border: 2px solid #706a7b;
+  background-color: #435180;
+  cursor: pointer;
+  height: 55px;
+  width: 30px;
+  position: absolute;
+  top: 100px;
+}
+
+.right {
+  border: 2px solid #706a7b;
+  background-color: #435180;
+  cursor: pointer;
+  height: 55px;
+  width: 30px;
+  position: absolute;
+  top: 100px;
+  right: 0;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273 32" width="273" height="32">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: #000000;paint-order:stroke fill markers;stroke-opacity:0.15;stroke-width: 2 } 
+	</style>
+	<g id="twitter">
+		<g id="tweet_textfld">
+			<path id="Rounded Rectangle 3" class="shp0" d="M12 2L262 2C267.52 2 272 6.48 272 12L272 21C272 26.52 267.52 31 262 31L12 31C6.48 31 2 26.52 2 21L2 12C2 6.48 6.48 2 12 2Z" />
+		</g>
+	</g>
+</svg>
