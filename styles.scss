@@ -150,7 +150,9 @@
             height: 100%;
             display: flex;
             @media only screen and (max-width : 480px) {
-                width: 200px;
+                width: 300px;
+                flex-direction: column;
+                
                 }
             &____description{
                 width: 200px;
@@ -161,9 +163,10 @@
                 text-align: center;
                 font-weight: bold;
                 @media only screen and (max-width : 480px) {
-                    width: 100px;
-                    line-height: 15px;
+                    display: none;
+                    line-height: 0px;
                     font-size: 13px;
+                    height: 40%;
                     }
                 
                 ul, li{
@@ -178,7 +181,8 @@
                 background: url(assets/THEYALOW.jpg);
                 background-size: cover;
                 @media only screen and (max-width : 480px) {
-                    width: 100px;
+                    width: 300px;
+                    height: 50%;
                     }
             }
         }
@@ -187,7 +191,8 @@
             height: 100%;
             display: flex;
             @media only screen and (max-width : 480px) {
-                width: 200px;
+                width: 300px;
+                flex-direction: column;
                 }
             
             &____description{
@@ -199,9 +204,10 @@
                 text-align: center;
                 font-weight: bold;
                 @media only screen and (max-width : 480px) {
-                    width: 100px;
-                    line-height: 15px;
+                    display: none;
+                    line-height: 0px;
                     font-size: 13px;
+                    height: 40%;
                     }
                 
                 ul, li{
@@ -216,7 +222,8 @@
                 background: url(assets/Снимок.PNG);
                 background-size: cover;
                 @media only screen and (max-width : 480px) {
-                    width: 100px;
+                    width: 300px;
+                    height: 50%;
                     }
             }
         }
@@ -231,7 +238,7 @@
 .second-position{ 
     transform: translate3d(-400px, 0px, 0px);
     @media only screen and (max-width : 480px) {
-        transform: translate3d(-200px, 0px, 0px);
+        transform: translate3d(-300px, 0px, 0px);
         }
 }
 .left{
@@ -254,3 +261,34 @@
     top: 100px;
     right:0;
 }
+.content-collapsible{
+    display: none;
+    @media only screen and (max-width : 480px){
+        display: block;
+        height: 50%;
+        width: 300px;
+        background-color: #869ec2;
+        color: black;
+        font-size: 15px;
+        text-align: left;
+    }
+}
+.content-collapsible{
+    display: none;
+    @media only screen and (max-width : 480px){
+        display: block;
+        height: 50%;
+        width: 300px;
+        background-color: #869ec2;
+        color: black;
+        font-size: 15px;
+        text-align: left;
+    }
+}
+.button_active:hover {
+    background-color: rgb(74, 74, 75);
+    color: darkblue;
+  }
+  .button_active{
+      height: 10%;
+  }

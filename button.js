@@ -37,4 +37,21 @@ wrapper.addEventListener("touchmove", ()=>{
     }
     
 });
+var butContent = document.getElementsByClassName("content-collapsible");
 
+
+for (let i = 0; i < butContent.length; i++) {
+  butContent[i].addEventListener("click", function() {
+    this.classList.toggle("button_active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+    if (this.classList.contains ("button_active")){
+        this.innerText= "Hide desc";
+    }
+    else this.innerText = "Show desc";
+  });
+}

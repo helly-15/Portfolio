@@ -11,6 +11,19 @@
 
 </head>
 <body>
+   <div class="buttonContainer">
+       <button id="desktop-mobile">Mobile</button>
+       <button id="back">Back</button>
+    </div>
+    
+    <div class="iframeWrapper" id="diviframe">
+    <iframe id="iframe" scrolling="auto" width="375px" height="100vh" frameborder="0" src="index.html" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    
+      
+    <div id="bodywrapper">
+      
+    
     
     <div class="wrapper1">
         <header class="header">
@@ -132,8 +145,21 @@
                 </div>
             </div>
         </footer> 
+    <script src="buttons.js"></script>
+</div>
+<script>
+    window.onload = () => {
+        if(window.screen.width > 500){
+            document.getElementById("desktop-mobile").style.display="block";
+           
+        }
+        
+      }
+     
+    
+    </script>
 </body>
+ 
 </html>
 
 
-<source>
