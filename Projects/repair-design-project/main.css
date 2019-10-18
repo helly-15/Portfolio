@@ -1587,3 +1587,37 @@
   width: 26%;
 }
 /*# sourceMappingURL=main.css.map */
+
+#iframe{
+  width: 350px;
+  height: 100vh;
+  margin: -100px 0;
+  
+  
+  z-index: 1;
+
+}
+#desktop-mobile{
+  width: 120px;
+  height: 120px;
+  
+  display: none;
+}
+#back{
+  width: 120px;
+  height: 120px;  
+ 
+  
+}
+.buttonContainer{
+  display: flex;
+  z-index: 2;
+}
+#diviframe{
+  z-index:1;
+  width: 400px;
+  height: 100vh;
+  display: none;
+  margin-top: -144px;
+  margin-left: 438px;
+}
